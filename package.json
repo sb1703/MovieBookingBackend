@@ -1,0 +1,36 @@
+{
+  "name": "moviebookingbackend",
+  "version": "1.0.0",
+  "description": "Movie Booking Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "sb1703",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "firebase": "^10.12.1",
+    "mongoose": "^8.3.5",
+    "multer": "^1.4.5-lts.1",
+    "nightmare": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "uuid": "^9.0.1",
+    "ws": "^8.17.1"
+  }
+}
