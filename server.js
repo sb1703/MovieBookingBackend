@@ -63,6 +63,8 @@ app.use("/audis", require("./routes/api/audis"))
 
 app.use("/users", require("./routes/api/users"))
 
+app.use("/payment", require("./routes/api/payment"))
+
 app.use(errorHandler)
 
 server.on('connection', (socket) => {
